@@ -10,7 +10,7 @@ The open-source performance evaluation for evaluating the [Medical Chat model](h
 
 The Medical Chat model demonstrates an exceptional accuracy performance, achieving a remarkable accuracy rate of **98.1%(637/649)** on the United States Medical Licensing Sample Exam([USMLE](https://www.usmle.org/)).
 
-As far as our knowledge extends, this represents the highest level of performance among question-answering systems evaluated on the USMLE sample exam. The accompanying graph provides a visual representation of how MediSearch compares to other publicly available models.
+As far as our knowledge extends, this represents the highest level of performance among question-answering systems evaluated on the USMLE sample exam. The accompanying graph provides a visual representation of how Medical Chat compares to other publicly available models.
 
 <img src="./public/USMLE_Medical_Chat_Performance.png" alt="USMLE Medical Chat Performance" width="600">
 
@@ -18,7 +18,7 @@ The 2022 USMLE sample benchmark served as the initial assessment platform for ev
 
 ## MedQA US Samples Exam
 
-MedQA serves as a benchmark akin to the USMLE sample exam, encompassing a dataset curated from various medical board examinations. This dataset comprises multiple-choice questions designed to assess proficiency in subjects such as Internal Medicine, Pediatrics, Psychiatry, and Surgery, among others. The evaluation of MediSearch was conducted on MedQA's 4-option English test set, encompassing a total of 1,273 questions.
+MedQA serves as a benchmark akin to the USMLE sample exam, encompassing a dataset curated from various medical board examinations. This dataset comprises multiple-choice questions designed to assess proficiency in subjects such as Internal Medicine, Pediatrics, Psychiatry, and Surgery, among others. The evaluation of Medical Chat was conducted on MedQA's 4-option English test set, encompassing a total of 1,273 questions.
 
 Medical Chat also demonstrated the highest performance, achieving an accuracy rate of 97.8%. This outcome places Medical Chat in first position on the Official Leaderboard, surpassing Google's Med-PaLM 2 and Google's Flan-PaLM (67.6%). The results from the MedQA evaluation assert that Medical Chat stands out as the most accurate medical question-answering system available for public use."
 
@@ -55,6 +55,7 @@ The Medical Chat model can be called programmatically only through creating a ch
 <img src="./public/Medical_Chat_CHATBOT_ID.png" alt="Medical Chat Chatbot ID" width="600">
 
 
+The environment variables can be specified within the `.env` file located at the root directory of the repository.
 
 ### 4. Set Up the Base Prompt
 To ensure the Medical Chat chatbot performs well, use the following base prompt:
