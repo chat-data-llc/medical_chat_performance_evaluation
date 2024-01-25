@@ -1,0 +1,37 @@
+{
+  "name": "medical_chat_performance_evaluation",
+  "version": "1.0.0",
+  "description": "Medical Chat (https://medical.chat-data.com/) Performance Evaluation",
+  "main": "index.js",
+  "scripts": {
+    "evaluate": "node -r dotenv/config scripts/evalulate.js"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/chat-data-llc/medical_chat_performance_evaluation.git"
+  },
+  "keywords": [
+    "Medical",
+    "Chat",
+    "Evaluation",
+    "Healthcare",
+    "questions",
+    "evaluation",
+    "LLM",
+    "Medical",
+    "AI",
+    "Chatbot"
+  ],
+  "author": "Chat Data LLC",
+  "license": "MIT",
+  "bugs": {
+    "url": "https://github.com/chat-data-llc/medical_chat_performance_evaluation/issues"
+  },
+  "homepage": "https://github.com/chat-data-llc/medical_chat_performance_evaluation#readme",
+  "dependencies": {
+    "csv-parser": "^3.0.0",
+    "dotenv": "^16.4.0",
+    "fast-csv": "^5.0.0",
+    "fs": "^0.0.1-security"
+  }
+}
